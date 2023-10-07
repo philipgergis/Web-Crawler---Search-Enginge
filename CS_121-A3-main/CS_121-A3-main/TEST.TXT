@@ -1,0 +1,31 @@
+Good
+1. "scholarship"
+2. "class" results are on classes in code which is good
+3. "student"
+4. "course"
+5. "function"
+6. "computer game science"
+7. "data science"
+8. "for loop"
+9. "code"
+10. "algorithm"
+
+Bad
+1. "ics uci" In this query search, the original contents were of a lot of documents that just looked for high term frquency. However, by adding the idf
+	we significantly imporved the ranking, showing less documents and more relevant results. 
+2. "computer science" In the original results, the page was full of niche pages on the ics domain that strayed from general computer science. After adding the idf
+	portion our code narrowed down on more relative pages and functioned better overall.
+3. "cs" Originally, most of the websites that showed up were documents with many css files written inside of them. Now with our completed tf-idf ranking, the number
+	of documents was reduced significantly and shows more relative sites to the search.
+4. "donald bren" Originally showed less pages that focused on the school of donald bren, but now by adjusting our ranking with the idf the results show more relevant 
+	pages than before
+5. "information science" The query search first showed random classes for informatics, but after finding a bug in our calculation that limited the results we fixed the 
+	results shown.
+6. "thornton" Originally relative pages on professor Thornton were shown later, but now they are closer to the top by completing and adjusting our idf portion of our
+	tf-idf rating.
+7. "software engineering" The major for software engineering was not shown close to the top prior to our calculation fix for our tf-idf function, but now the websites
+	containing info on the major are relatively higher. 
+8. "testing" The first set of results contained several pages or documents that only briefly mentioned testing, but our bug fix to our calculations in our ranking made it so 
+	unit testing results are more common.
+9. "boolean" The 6B class pages for boolean logic are now shown higher up than before due to our fix in our tf-idf ranking, specifically the idf portion.
+10. "script" Was originally solely random files in the search, but after the fix to our tf-idf ranking there are less files and more relative urls.
